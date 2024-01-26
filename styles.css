@@ -40,7 +40,7 @@
     width: 85vw;
     background-color: yellow;
     border: black solid 5px;
-    overflow-x: hidden;
+    overflow-x: scroll;
     
     white-space: nowrap;
     justify-content: center;
@@ -78,7 +78,9 @@ img{
 
 
 
-
+::-webkit-scrollbar {
+    display: none;
+}
 
 
 
